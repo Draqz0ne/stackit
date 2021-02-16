@@ -2,9 +2,11 @@ import React from 'react'
 import './directory.styles.scss'
 import MenuItem from '../Menu/menu.components'
 
-const Directory = () => (
-    <div className = 'directory'>
-        <MenuItem />
-    </div>
-)
+class Directory extends React.Component{
+    constructor() {
+        super();
+    
+        this.state =  
+    }
+}
 export default Directory
